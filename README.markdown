@@ -7,6 +7,7 @@ Example
 =======
 
 class SUT extends Shoulda {
+  
   context /"A User instance"/ {
     val user = new User("Full name")
     should /"return its full name"/ {
